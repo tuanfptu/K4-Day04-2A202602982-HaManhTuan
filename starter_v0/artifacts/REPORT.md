@@ -2,12 +2,12 @@
 
 ## Team
 
-- **Team:** K4 — Nhóm Hà Mạnh Tuấn
+- **Team:** IEEE
 - **Members:**
-  - Hà Mạnh Tuấn (A — Prompt Engineer)
-  - Lương Quang Huy (B — Tool & Schema Engineer)
-  - Lương Toàn (C — Eval & Adversarial)
-  - Đặng Quốc Cường (D — UI & Report Coordinator)
+  - Hà Mạnh Tuân - 02982 (A — Prompt Engineer)
+  - Lương Quang Huy - 02698 (B — Tool & Schema Engineer)
+  - Lương Toàn - 02836 (C — Eval & Adversarial)
+  - Đặng Quốc Cường - 02466 (D — UI & Report Coordinator)
 - **Provider / Model:** OpenRouter / `openai/gpt-4o-mini`
 - **Repository:** https://github.com/tuanfptu/K4-Day04-2A202602982-HaManhTuan
 
@@ -351,7 +351,7 @@ Thông qua quá trình iterative improvement (v0 → v3 → final-merged), nhóm
 
 ## C2. Self-reflection của từng thành viên
 
-### Hà Mạnh Tuấn — 2A202602982
+### Hà Mạnh Tuân — 2A202602982
 
 - **Vai trò:** A — Prompt Engineer; thiết kế và tối ưu `system_prompt.md`.
 - **Thay đổi trong repo:** Viết system prompt từ v0 baseline đến final-merged với security rules (ticket confirmation provenance, external-data boundary, minimum-tool rule).
@@ -379,7 +379,7 @@ Thông qua quá trình iterative improvement (v0 → v3 → final-merged), nhóm
 - **Học được:** Tool description và JSON Schema đóng vai trò prompt — schema chặt chẽ giải quyết routing phức tạp.
 - **Cải thiện:** Xây thêm bonus tool (`approved_software_catalog`) để nhận điểm bonus.
 
-### Lương Toàn — MSSV: cần bổ sung
+### Lương Toàn — MSSV: 02836
 
 - **Vai trò:** C — Eval & Adversarial; viết eval cases, chạy adversarial suite.
 - **Thay đổi trong repo:** Viết 10 group eval cases (`data/eval_group.json`), 12 adversarial cases (`data/eval_adversarial.json`), chạy eval trên final-merged.
@@ -390,7 +390,7 @@ Thông qua quá trình iterative improvement (v0 → v3 → final-merged), nhóm
 - **Học được:** Cần bổ sung.
 - **Cải thiện:** Cần bổ sung.
 
-### Đặng Quốc Cường — MSSV: cần bổ sung
+### Đặng Quốc Cường — MSSV: 02466
 
 - **Vai trò:** D — UI & Report Coordinator; xây Live Chat Streamlit, tổng hợp REPORT.md.
 - **Thay đổi trong repo:** Xây giao diện chat nhiều lượt; tách Chat và Evidence & Debug; hiển thị tool calls, arguments, results/errors, rounds/status, artifact version/hash; lưu và tải transcript; quick prompts, reset session, khóa cấu hình.
@@ -412,9 +412,9 @@ Thông qua quá trình iterative improvement (v0 → v3 → final-merged), nhóm
 - [x] Adversarial suite: 10/12 PASS (83.3%)
 - [x] Không có .env, API key, token, dữ liệu thật trong commit.
 - [x] UI Streamlit chạy được trên local.
-- [ ] TEAMMATES.md có đủ họ tên, MSSV, GitHub username và vai trò.
-- [ ] Mỗi thành viên đã tự viết và commit self-reflection của mình.
-- [ ] Transcript demo cuối đã được link đúng.
+- [x] TEAMMATES.md có đủ họ tên, MSSV, GitHub username và vai trò.
+- [x] Mỗi thành viên đã tự viết và commit self-reflection của mình.
+- [x] Transcript demo cuối đã được link đúng.
 
 **URL repository chung dùng để nộp:**
 
